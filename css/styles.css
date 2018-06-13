@@ -2151,11 +2151,14 @@ body {
 }
 
 
+#about-me-pic {
+  height: 300px;
+}
 #about-text-holder {
   padding: 10%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.466);
-  mix-blend-mode: screen; 
+  background-color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: color-dodge; 
   /* These are blending the bg color #6de590 with the image.
   others:
   screen, color, color-burn, color-dodge, darken, difference, exclusion, hard-light, hue, multiply, lighten, luminosity, normal (default), overlay, saturation, soft-light.
@@ -2163,18 +2166,29 @@ body {
   */
 }
 #about-title {
-	font-size: 12em;
+	font-size: 9em;
 	margin: 0;
-	line-height: 1;
-  letter-spacing: -2rem;
+  line-height: 1;
+  font-size: 13.0vh;
+  letter-spacing: -1.25rem;
   color: #FFFFFF;
 }
 #about-title span {
   mix-blend-mode: multiply;
 }
 /* .about-text-style:nth-child(2) {
-  color: #801b3a;
+  color: #FFFFFF;
 }
 .about-text-style:nth-child(3) {
   color: #164d67;
+}
+.about-text-style:nth-child(5) {
+  color: #801b3a;
+}
+.about-text-style:nth-child(6) {
+  color: #164d67;
 } */
+
+.spacer-span {
+  width: 50px;
+}

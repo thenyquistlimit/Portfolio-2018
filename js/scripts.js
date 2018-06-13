@@ -196,6 +196,10 @@
 			})
 		}
 
+		$(document).ready(function() {
+			$("#about-title").lettering();
+		});
+
 		// Maps Google
 		var $maps = $('.maps');
 
