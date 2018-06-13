@@ -2149,3 +2149,32 @@ body {
     padding-top: 33.33%;
   }
 }
+
+
+#about-text-holder {
+  padding: 10%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.466);
+  mix-blend-mode: screen; 
+  /* These are blending the bg color #6de590 with the image.
+  others:
+  screen, color, color-burn, color-dodge, darken, difference, exclusion, hard-light, hue, multiply, lighten, luminosity, normal (default), overlay, saturation, soft-light.
+ 
+  */
+}
+#about-title {
+	font-size: 12em;
+	margin: 0;
+	line-height: 1;
+  letter-spacing: -2rem;
+  color: #FFFFFF;
+}
+#about-title span {
+  mix-blend-mode: multiply;
+}
+/* .about-text-style:nth-child(2) {
+  color: #801b3a;
+}
+.about-text-style:nth-child(3) {
+  color: #164d67;
+} */
